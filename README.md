@@ -3,9 +3,10 @@
 ==GITHUB==
 1. If you haven't already, create a GitHub account
 2. Go to https://github.com/Matedev8888/Portal-Emergency-Reboot
-3. Click on the folder named what you want to contribute
-4. Click on Add files
+3. Open an issue
+4. Add files and labels 
 5. Select the file you want to add
+6. (NOTE: you will get invited to contribute)
 
 ==DISCORD==
 1. Join my Discord server: https://discord.gg/B65C4tQKu4
@@ -13,6 +14,8 @@
 3  Add tags 
 4. Add title
 5. Post Files in a zip file (or paste the link to Google Drive, Steam Workshop, etc.)
+
+==NOTE: It's recommended to open the both issue and create a Discord post==
 
 ==CUSTOM CONTENT==
 1. If your map contains custom assets, post the.VPK or .ZIP with those assets 
