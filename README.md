@@ -6,6 +6,7 @@
 3. Open an issue
 4. Add files and tags
 5. Select the file you want to add
+6. (NOTE: you will get invited to contribute)
 
 ==DISCORD==
 1. Join my Discord server: https://discord.gg/B65C4tQKu4
