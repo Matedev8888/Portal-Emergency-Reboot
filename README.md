@@ -3,8 +3,8 @@
 ==GITHUB==
 1. If you haven't already, create a GitHub account
 2. Go to https://github.com/Matedev8888/Portal-Emergency-Reboot
-3. Click on the folder named what you want to contribute
-4. Click on Add files
+3. Open an issue
+4. Add files and tags
 5. Select the file you want to add
 
 ==DISCORD==
