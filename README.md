@@ -15,6 +15,8 @@
 4. Add title
 5. Post Files in a zip file (or paste the link to Google Drive, Steam Workshop, etc.)
 
+==NOTE: It's recommended to open the both issue and create a Discord post==
+
 ==CUSTOM CONTENT==
 1. If your map contains custom assets, post the.VPK or .ZIP with those assets 
 2. If your.VMF contains custom instances, pack them into a .zip (or send the link with them in the post)
