@@ -1,0 +1,18 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/lobby_228/television_set_1950_display_02"
+	"$texture2" "models/lobby_228/screen_illum"
+
+    "$scale2" "[0.05 0.05]"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .8
+			"texturescrollangle" 250
+		}
+	}
+}
+

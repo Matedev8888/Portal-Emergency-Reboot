@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$basetexture "overlays/aperture_70s_logo_64x64"
+$surfaceprop default
+$translucent 1
+$decal 1
+}

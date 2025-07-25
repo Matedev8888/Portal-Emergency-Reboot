@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/hybrid_button/p1_button"
+
+
+	"$bumpmap" "models/props/hybrid_button/p1_button_normal"
+	"$phong" "1"
+	"$phongexponenttexture" "models/props/hybrid_button/p1_button_exponent"
+	
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 1.5 2]"
+	"$selfillum" 1
+
+}

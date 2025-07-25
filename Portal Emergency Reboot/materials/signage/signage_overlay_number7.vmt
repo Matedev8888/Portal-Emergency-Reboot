@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$basetexture "signage/signage_overlay_number7"
+$surfaceprop glass
+$selfillum 1
+$decal 1
+}

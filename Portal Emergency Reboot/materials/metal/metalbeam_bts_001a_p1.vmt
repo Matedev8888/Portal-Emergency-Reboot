@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Metal/metalbeam_bts_001a_p1"
+	"$surfaceprop" "metal"
+	"%noportal" 1
+	"%keywords" "portal"
+}

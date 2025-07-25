@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture" "Models/props_ez2/monitor02b"
+	"$selfillum" "1"
+	"$surfaceprop" "plastic"
+}

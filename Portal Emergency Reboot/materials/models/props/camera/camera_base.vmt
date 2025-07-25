@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/camera/camera_base"
+
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "MetalVent"
+}

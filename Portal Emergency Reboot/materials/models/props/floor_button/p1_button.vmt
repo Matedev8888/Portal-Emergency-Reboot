@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/props/floor_button/base"
+"$bumpmap" "models/props/floor_button/normal"
+"$phong" "1"
+"$phongexponenttexture" "models/props/floor_button/exponent"
+"$phongboost" "1"	
+"$phongfresnelranges"	"[1 1.5 2]"
+"$selfillum" 1
+}

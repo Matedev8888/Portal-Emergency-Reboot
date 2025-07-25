@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+$basetexture "anim_wp\framework\backpanels_snow"
+$bumpmap "anim_wp\framework\backpanels_color01_height-ssbump"
+$envmap "metal/black_wall_envmap_002a_hdr"
+
+$surfaceprop metal
+$ssbump			"1"
+
+$envmapcontrast 1
+$envmapsaturation .2
+$envmaptint "[.25 .25 .25 ]"
+$normalmapalphaenvmapmask 1
+$envmaplightscale .6
+
+"%noportal" 1
+$reflectivity "[ .3 .3 .3 ]" 
+}

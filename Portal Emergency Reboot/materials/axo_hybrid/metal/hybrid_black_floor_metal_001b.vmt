@@ -1,0 +1,19 @@
+LightMappedGeneric
+{
+$basetexture "axo_hybrid/metal/hybrid_black_floor_metal_001b"
+$bumpmap "metal/metal_modular_floor001_height-ssbump"
+$ssbump 1
+$reflectivity "[ 0.7 0.7 0.7 ]" 
+
+$envmap		env_cubemap
+$normalmapalphaenvmapmask 1
+$envmapsaturation 0.1
+$envmaptint 0.1 0.1 0.12
+
+"%noportal" 1
+$detail "detail/detail_blackfloor"
+$detailscale 4.2
+$detailblendfactor .6
+$detailblendmode 7
+"%keywords" "portal2 noportal chamber"
+}

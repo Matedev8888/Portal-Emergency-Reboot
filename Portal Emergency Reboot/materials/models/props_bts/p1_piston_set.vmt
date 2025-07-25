@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/p1_piston_set"
+	"$envmaptint" "[ .9 .9 .9 ]"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+//	"$envmapcontrast" 1
+//	"$envmapsaturation" 1
+
+
+}

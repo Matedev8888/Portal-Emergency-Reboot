@@ -1,0 +1,14 @@
+// envmaptint_fix
+VertexLitGeneric
+{
+	"$basetexture" "models/props_bts/p1_plasticwall002a_vertex"
+	//"$bumpmap" "models/props_bts/p1_plasticwall001a_normal"
+	"%keywords" "portal"
+
+	// NOTE: Even though env_cubemap is here, it will turned off for DX6
+	// because $multipass 1 isn't defined
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .03 .03 .03 ]"
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 1
+}

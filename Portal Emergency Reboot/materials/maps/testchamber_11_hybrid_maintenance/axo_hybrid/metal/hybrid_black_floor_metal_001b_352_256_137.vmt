@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/AXO_HYBRID/METAL/HYBRID_BLACK_FLOOR_METAL_001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/testchamber_11_hybrid_maintenance/c352_256_137"
+	}
+}

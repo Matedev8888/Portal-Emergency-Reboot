@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/wall_art/poster_radio_interference"
+	%noportal 1
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"Models/bee2/props_p1_bts/128_fuse_set06_b"
+	"$surfaceprop"	"metal"
+}

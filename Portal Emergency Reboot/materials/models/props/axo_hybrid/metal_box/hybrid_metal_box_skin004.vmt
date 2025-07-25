@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+	{
+	"$baseTexture" "models/props/axo_hybrid/metal_box/hybrid_metal_box_skin004"
+	"$bumpmap" "BEE2/models\props_ingame/p1_metal_box/metal_box_normal"
+	"$phong" "1"
+	"$phongexponenttexture" "BEE2/models/props_ingame/p1_metal_box/metal_box_exponent"
+	"$phongboost" "3"	
+	"$phongfresnelranges"	"[5 1 2]"
+	"$selfillum" 1
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[0.5 0.5 0.5]"
+	}

@@ -1,0 +1,16 @@
+PBR
+{
+	$basetexture		"pbr/aperturevr/white_floor_tile/pbr_white_floor_tile_004a_albedo"
+	$basetexturetransform		"center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+	$bumpmap			"pbr/aperturevr/white_floor_tile/pbr_white_floor_tile_002a_bump"
+	$mraotexture		"pbr/aperturevr/white_floor_tile/pbr_white_floor_tile_002a_mrao"
+
+	$mraoscale			"[0.6 1 1]"
+	$hsv				"[1 0.25 1]"
+	$envmaptint			"[.05 .05 .05]"
+
+	$surfaceprop		"Tile"
+
+	%keywords		"pbr,chamber,aperturevr"
+}

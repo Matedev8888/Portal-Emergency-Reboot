@@ -1,0 +1,23 @@
+LightmappedGeneric
+{
+$basetexture	"dj\metal\metal_128_basecolor"
+$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+// $bumpmap "axo_hybrid/metal/hybrid_black_wall_metal_002c_height-ssbump"
+$bumpmap "dj\metal\metal_128_ssbump"
+$ssbump 1
+$bumptransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+
+$envmap		env_cubemap
+// $envmaptint	.05 .05 .06
+$envmaptint	.25 .25 .5
+$normalmapalphaenvmapmask	1
+
+$detail "detail/metal_detail_01"
+$detailblendmode 0
+$detailscale 16
+$detailblendfactor .25
+
+$reflectivity "[ 0.7 0.7 0.7 ]" 
+$surfaceprop	metal
+"%noportal"	1
+}

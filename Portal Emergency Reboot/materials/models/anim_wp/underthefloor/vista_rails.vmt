@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+    $basetexture "models/anim_wp/underthefloor/vista_rails"
+
+    $selfillum 1
+}

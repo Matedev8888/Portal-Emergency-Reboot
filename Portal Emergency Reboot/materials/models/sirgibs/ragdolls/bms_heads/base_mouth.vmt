@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\sirgibs\ragdolls\bms_heads\base_m_d"
+	"$bumpmap" "models\sirgibs\ragdolls\bms_heads\base_m_n"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

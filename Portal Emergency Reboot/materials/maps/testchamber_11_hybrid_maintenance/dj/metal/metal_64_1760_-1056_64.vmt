@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/DJ/METAL/METAL_64.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/testchamber_11_hybrid_maintenance/c1760_-1056_64"
+	}
+}

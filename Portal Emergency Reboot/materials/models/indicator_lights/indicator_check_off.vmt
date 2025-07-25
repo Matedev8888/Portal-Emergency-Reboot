@@ -1,0 +1,23 @@
+VertexlitGeneric
+{
+$basetexture "models/indicator_lights/check_off_color"
+$surfaceprop Glass
+$bumpmap "elevator/elevator_screen_normal"
+$envmap "metal/black_wall_envmap_002a"
+$envmaptint "[0.30 0.30 0.30]"
+$envmapcontrast 1
+$envmapsaturation 0.2
+$envmapfresnel 1
+$envmaplightscale 1
+$envmapanisotropy 1
+$envmapanisotropyscale 1
+$model 1
+hdr
+{
+$envmap "metal/black_wall_envmap_002a_hdr"
+}
+}
+
+
+
+

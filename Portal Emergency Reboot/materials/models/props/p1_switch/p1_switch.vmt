@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/props/p1_switch/base"
+"$bumpmap" "models/props/p1_switch/normal"
+"$phong" "1"
+"$phongexponenttexture" "models/props/p1_switch/exponent"
+"$phongboost" "10"	
+"$lightwarptexture" "models/props/p1_switch/lightwarp"
+"$phongfresnelranges"	"[5 1 2]"
+"$selfillum" 1
+}

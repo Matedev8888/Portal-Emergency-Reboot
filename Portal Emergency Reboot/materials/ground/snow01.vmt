@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$basetexture "ground\snow01"
+
+$envmapmask "ground\snow01_envmask"
+$surfaceprop snow
+}

@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\toolbox_as\aperturetools\toolbox_small_color"
+
+	
+//	"$envmapmask"	"models\props\toolbox_as\aperturetools\toolbox_small_mask"
+//	"$envmap" 	"env_cubemap"
+
+
+	
+	
+	
+//	"$envmaplightscale"		"1"
+//	"$envmaplightscaleminmax" 	"[0 1.5]"
+
+//	"$envmapcontrast" 		"1.1"
+//	"$envmaptint" 		"[.7 .7 .7]"
+
+
+}

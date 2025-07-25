@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$bumpmap "models/props/portal_door/portal_normal_1"
+
+$basetexture "Tools/toolsblack"
+$additive 1
+
+$phong 1
+$phongboost 8
+$phongexponent 24
+$phongfresnelranges "[.1 .5 1]"
+}

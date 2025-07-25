@@ -1,0 +1,19 @@
+Refract
+{
+	$surfaceprop 		Glass
+
+	$envmap 			"env_cubemap"
+	$envmaptint			"[0.13 0.17 0.2]"
+	
+	$alphatest			1
+	$fresnelreflection	0.2
+	$envmapsaturation 	0.1
+
+	$bluramount 		1	
+	$refract 			1
+	$refracttint 		"[1 1 1]"
+	$refractamount 		0.1
+
+	$normalmap 			"glass/refracting_frosted_glass/frosted_glass_refract_l2"
+	$refracttinttexture "glass/glasswindow_frosted_003"
+}

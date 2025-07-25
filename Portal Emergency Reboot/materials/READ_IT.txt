@@ -1,0 +1,7 @@
+TEXTURES ISN'T MINE. THIS TEXTURES IS FROM LEFT4DEAD GAME
+
+How to put that in to game ?
+Step1. Open ZIP file
+Step2. Open @materials folder, there should be an Sprites folder
+Step3. Pick the Sprites folder and put it in to the SteamLibrary\steamapps\common\Portal 2\portal2\materials
+Step4. Be happy

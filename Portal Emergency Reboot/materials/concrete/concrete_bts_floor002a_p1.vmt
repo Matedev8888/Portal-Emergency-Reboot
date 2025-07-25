@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete\concrete_bts_floor002a_p1"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+        "$detail" "detail\detail_concrete_02_p1"
+	"$detailscale" "1.5"
+	"$detailblendfactor" .95
+	"$detailblendmode" 0
+}

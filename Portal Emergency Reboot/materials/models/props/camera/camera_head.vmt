@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/camera/camera_head"
+	$model 1
+	"$surfaceprop" "MetalVent"
+	"$selfillum" 1
+	"$selfillummask" "models/props/camera/camera_head_emmision"
+
+}

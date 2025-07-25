@@ -1,0 +1,12 @@
+Refract
+{
+$refractamount ".025"
+$bluramount 1
+$REFRACTTINT "[.81 .89 1.0]"
+$scale "[1 1]"
+$normalmap "glass/refract_light_normal"
+$surfaceprop glass
+$envmap env_cubemap
+// $envmapsaturation .1
+$envmaptint "[ 0.5 0.5 0.5 ]"
+}

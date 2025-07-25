@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/ANIM_WP/FRAMEWORK/HYBRID_BACKPANELS.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/testchamber_11_hybrid_maintenance/c-704_1024_128"
+	}
+}

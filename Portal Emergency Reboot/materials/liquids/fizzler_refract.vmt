@@ -1,0 +1,23 @@
+Refract
+	{
+	"%noportal" "1"
+	$refractamount "2"
+	$bluramount 5
+	$refracttint "{100 150 200}"
+//	$envmap env_cubemap
+//	$envmaptint "[ 0.4 0.6 0.8 ]"
+//	$normalmapalphaenvmapmask 1
+	
+	$normalmap "liquids/fizzler_field_normal_sharp"
+	$normalmap2 "liquids/fizzler_noise2"
+	$surfaceprop "water"
+	Proxies
+		{
+		"TextureScroll"
+			{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .2
+			"texturescrollangle" 0.00
+			}
+		}
+	}

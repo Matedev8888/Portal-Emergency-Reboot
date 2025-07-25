@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+$bumpmap "models/indicator_lights/newsignage_sign_normal"
+$decal 1
+$basetexture "Tools/toolsblack"
+$additive 1
+$phong 1
+$phongboost 3
+$phongexponent 5
+$phongfresnelranges "[.1 .5 1]"
+$envmap "metal/black_wall_envmap_002a"
+$normalmapalphaenvmapmask 1
+$envmaptint "[0.05 0.05 0.05]"
+$envmapcontrast 1
+$envmapsaturation 0.1
+$envmapfresnel 1
+hdr
+{
+$envmap "metal/black_wall_envmap_002a_hdr"
+}
+}

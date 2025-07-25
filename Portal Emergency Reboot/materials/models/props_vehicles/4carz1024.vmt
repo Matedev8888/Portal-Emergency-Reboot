@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "Models/props_vehicles/4carz1024"
+	$surfaceprop metal
+	$model 1
+	$blendtintbybasealpha 1
+
+	$envmap env_cubemap
+	$envmapmask "Models/props_vehicles/4carz1024_envmask"
+	$envmapfresnel 0.5 // Must compromise for lack of $envmapFresnelMinMaxExp
+	$envmaptint "[0.75 0.75 0.75]" // Must compromise for lack of $envmapFresnelMinMaxExp
+	//$envmapFresnelMinMaxExp "[.1 2 3]"
+}

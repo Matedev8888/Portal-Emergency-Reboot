@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PLASTIC/PLASTIC_LIGHT002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/testchamber_11_hybrid_maintenance/c-75_968_208"
+	}
+}

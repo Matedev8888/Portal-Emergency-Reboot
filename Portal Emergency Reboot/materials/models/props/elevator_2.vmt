@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "models/props/elevator_2"
+$surfaceprop metal
+$bumpmap "models/props/elevator_2_normal"
+$selfillum 1
+
+$phong 1
+$phongboost 3
+$phongexponenttexture "models/props/elevator_2_exponent"
+$phongfresnelranges "[2 1.5 2]"
+}

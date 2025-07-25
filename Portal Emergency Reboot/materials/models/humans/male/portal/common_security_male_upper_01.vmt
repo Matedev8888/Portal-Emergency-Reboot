@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/Humans/Male/portal/common_security_male_upper_01"
+	"$bumpmap" 		"models/Humans/Male/portal/common_security_male_upper_n"
+	"$phong" "1"
+	"$phongexponent" "10"
+//	"$phongexponenttexture" "models\fearless/mafia/suit_exp"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.05 0.1 0.5]"
+	
+}

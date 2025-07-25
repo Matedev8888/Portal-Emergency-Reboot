@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW_FROSTED_SHINY.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/testchamber_11_hybrid_maintenance/c-44_692_112"
+	}
+}

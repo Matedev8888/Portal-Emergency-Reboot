@@ -1,0 +1,15 @@
+PBR
+{
+	$basetexture		"pbr/aperturevr/black_wall_metal/pbr_black_wall_metal_005a_albedo"
+
+	$bumpmap			"pbr/aperturevr/black_wall_metal/pbr_black_wall_metal_005a_bump"
+	$mraotexture		"pbr/aperturevr/black_wall_metal/pbr_black_wall_metal_002a_mrao"
+
+	$mraoscale			"[0.75 1.8 1]"
+	$envmaptint			"[.05 .05 .05]"
+
+	$surfaceprop		"Metal"
+
+	%noportal		1
+	%keywords		"pbr,chamber,aperturevr,dirty,overgrown"
+}

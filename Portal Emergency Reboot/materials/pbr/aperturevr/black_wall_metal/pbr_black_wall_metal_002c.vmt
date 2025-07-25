@@ -1,0 +1,16 @@
+PBR
+{
+	$basetexture		"pbr/aperturevr/black_wall_metal/pbr_black_wall_metal_002c_albedo"
+	$basetexturetransform		"center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+	$bumpmap			"pbr/aperturevr/black_wall_metal/pbr_black_wall_metal_002c_bump"
+	$mraotexture		"pbr/aperturevr/black_wall_metal/pbr_black_wall_metal_002c_mrao"
+
+	$mraoscale			"[0.75 1.25 1]"
+	$envmaptint			"[.3 .3 .3]"
+
+	$surfaceprop		"Metal"
+
+	%noportal		1
+	%keywords		"pbr,chamber,aperturevr"
+}

@@ -1,0 +1,16 @@
+PBR
+{
+	$basetexture		"pbr/aperturevr/metalwall_bts/pbr_metalwall_bts_003a_albedo"
+
+	$bumpmap			"pbr/aperturevr/metalwall_bts/pbr_metalwall_bts_003a_bump"
+	$mraotexture		"pbr/aperturevr/metalwall_bts/pbr_metalwall_bts_003a_mrao"
+
+	$mraoscale			"[.5 .7 1]"
+	$envmaptint			"[1 1 1]"
+	$envmaplightscale	"0.8"
+
+	$surfaceprop		"Metal"
+
+	%noportal		1
+	%keywords		"pbr,chamber,aperturevr"
+}

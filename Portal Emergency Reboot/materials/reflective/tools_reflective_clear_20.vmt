@@ -1,0 +1,29 @@
+Water
+{
+$forceexpensive 1
+$reflectentities 1
+$reflect2dskybox 0
+
+"$normalmap" "dev/flat_normal"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "1.0"
+	"$reflecttint" "[1 1 1]"
+
+
+$abovewater 1
+$bottommaterial "nature/toxicslime002a_beneath"
+$fogenable 0
+$fogstart 0
+$fogend 1
+$lightmapwaterfog 1
+
+$fogcolor "{ 0 0 0 }"
+$flashlighttint 1
+"%compilewater" 1
+"%tooltexture" "reflective/tools_reflective"
+$surfaceprop metal
+
+$pseudotranslucent 1
+$waterblendfactor 0.2
+}

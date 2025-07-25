@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/DJ/METAL/METAL_32.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/testchamber_11_hybrid_maintenance/c352_256_137"
+	}
+}

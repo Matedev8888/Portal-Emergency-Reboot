@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+$basetexture "models/indicator_lights/indicator_light_off_color"
+$surfaceprop glass
+$alphatest 1
+$allowalphatocoverage 1
+$envmap "metal/black_wall_envmap_002a"
+$envmapmask "models/indicator_lights/indicator_light_off_mask"
+$envmaptint "[0.20 0.20 0.20]"
+$envmapcontrast 1
+$envmapsaturation 0.2
+$envmapfresnel 1
+$model 1
+$receiveflashlight 1
+hdr
+{
+$envmap "metal/black_wall_envmap_002a_hdr"
+}
+}

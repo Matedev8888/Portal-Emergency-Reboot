@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/bts_fan_rim"
+	   "$envmap" "env_cubemap"
+     	//"$basealphaenvmapmask" 1 
+     	"$envmaptint" "[ .25 .25 .25]"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metal"
+	$alphatest 0
+
+$phong 1
+$phongexponenttexture "models/props_bts/bts_fan_rim_exp"
+$phongboost "13"
+$phongalbedotint 1
+$phongfresnelranges "[0.9 .04 0.8]"
+
+$basemapalphaphongmask 1
+}

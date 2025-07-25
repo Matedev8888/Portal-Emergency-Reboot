@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$basetexture "overlays/garagegroundmarking01f_full"
+$translucent 1
+$decal 1
+}

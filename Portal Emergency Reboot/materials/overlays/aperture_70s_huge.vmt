@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$basetexture "overlays/aperture_70s_huge"
+$surfaceprop default
+$translucent 1
+$decal 1
+}

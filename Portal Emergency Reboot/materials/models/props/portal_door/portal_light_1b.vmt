@@ -1,0 +1,23 @@
+Refract
+{
+$model 1
+$refractamount ".025"
+$bluramount 1
+$REFRACTTINT "[1 .80 .5]"
+$scale "[1 1]"
+$normalmap "models/props/portal_door/portal_normal_1"
+$surfaceprop glass
+$localrefract 1
+$localrefractdepth "0.02"
+$basetexture "models/props/portal_door/portal_light_1"
+$envmap "metal/black_wall_envmap_002a"
+hdr
+{
+$envmap "metal/black_wall_envmap_002a_hdr"
+}
+$envmapcontrast 1
+$envmapsaturation .2
+$envmaptint "[.4 .4 .4]"
+$normalmapalphaenvmapmask 1
+$envmaplightscale .6
+}

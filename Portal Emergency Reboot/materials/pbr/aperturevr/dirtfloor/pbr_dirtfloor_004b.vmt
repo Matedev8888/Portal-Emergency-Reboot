@@ -1,0 +1,17 @@
+PBR
+{
+	$basetexture		"pbr/aperturevr/dirtfloor/pbr_dirtfloor_004b_albedo"
+	$basetexturetransform		"center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+	$bumpmap			"pbr/aperturevr/dirtfloor/pbr_dirtfloor_004b_bump"
+	$mraotexture		"pbr/aperturevr/dirtfloor/pbr_dirtfloor_004b_mrao"
+
+	$mraoscale			"[.3 1 1]"
+	$envmaptint			"[.3 .3 .3]"
+	$envmaplightscale	"0.8"
+
+	$surfaceprop		"Metal"
+
+	%noportal		1
+	%keywords		"pbr,chamber,aperturevr"
+}

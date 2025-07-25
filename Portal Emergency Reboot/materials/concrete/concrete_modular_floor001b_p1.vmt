@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/concrete_modular_floor001b_p1"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+	"$bumpmap" "concrete/concrete_modular_floor002_height-ssbump_p1"
+	"$ssbump" "1"
+
+        "$detail" "detail\detail_concrete_02_p1"
+	"$detailscale" "1.5"
+	"$detailblendfactor" .6
+	"$detailblendmode" 0
+}

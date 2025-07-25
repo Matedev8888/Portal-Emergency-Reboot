@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Nature/cavewall005a"
+//	"$bumpmap" "Nature/cavewall005a_normal"
+	"$bumpmap" "Nature/cavewall005a_ssbump"
+	"$ssbump" "1"
+	"$surfaceprop" "concrete"
+	"%noportal" 1
+}

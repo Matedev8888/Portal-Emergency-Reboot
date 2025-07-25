@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models/props/axo_hybrid/hybrid_turret_01"
+$bumpmap "models\props\turret_01_normal"
+
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+"$envmaptint" "[0.5 0.5 0.5]"
+
+// $lightwarptexture "models\props\turret_01_lightwarp"
+$selfillum 1
+"$selfillumtint" "{255 100 100}"
+}

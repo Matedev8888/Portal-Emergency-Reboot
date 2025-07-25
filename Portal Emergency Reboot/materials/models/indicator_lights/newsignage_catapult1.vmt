@@ -1,0 +1,25 @@
+Refract
+{
+$basetexture "models/indicator_lights/newsignage_sign_refract"
+$surfaceprop glass
+$decal 0
+$envmap "metal/black_wall_envmap_002a"
+hdr
+{
+$envmap "metal/black_wall_envmap_002a_hdr"
+}
+$normalmapalphaenvmapmask 1
+$envmaptint "[0.15 0.15 0.15]"
+$envmapcontrast 1
+$envmapsaturation 0.2
+$envmaplightscale 0.6
+$envmaplightscaleminmax "[0 1]"
+$refract 1
+$normalmap "models/indicator_lights/newsignage_sign_normal"
+$refracttinttexture "models/indicator_lights/newsignage_catapult1"
+$refractamount 0.5
+$bluramount 0.51
+$localrefract 1
+$localrefractdepth 0.025
+$model 1
+}

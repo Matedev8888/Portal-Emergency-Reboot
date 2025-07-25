@@ -1,0 +1,19 @@
+VertexlitGeneric
+{
+$basetexture "models/indicator_lights/check_broken_color"
+$surfaceprop Glass
+$bumpmap "models/props_destruction/glass_fracture_f_normal"
+$envmap "metal/black_wall_envmap_002a"
+$envmaptint "[0.30 0.30 0.30]"
+$envmapcontrast 1
+$envmapsaturation 0.2
+$envmapfresnel 1
+$model 1
+hdr
+{
+$envmap "metal/black_wall_envmap_002a_hdr"
+}
+}
+
+
+

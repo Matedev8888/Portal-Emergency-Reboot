@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "anim_wp/framework/hybrid_backpanels_spoopy_gradient_2"
+	$bumpmap "anim_wp/framework/hybrid_backpanels_height-ssbump"
+	$ssbump 1
+	"$selfillum" 1
+	"$surfaceprop" "metal" 
+	"%keywords" "portal"
+	"%noportal" 1
+	"$reflectivity" "[ .35 .30 .27 ]" //this is a artificial radiosity boost
+}

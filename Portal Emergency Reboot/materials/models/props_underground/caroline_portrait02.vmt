@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture "models/props_underground/caroline_portrait02"
+$surfaceprop default
+}

@@ -1,0 +1,28 @@
+VertexlitGeneric
+{
+$basetexture "models/indicator_lights/check_frame_color"
+$bumpmap "models/indicator_lights/check_frame_normal"
+$detail "detail/detail_tile"
+$detailblendmode 7
+$detailscale 0.1
+$detailtexturetransform "center .5 .5 scale 1 1 rotate 1 translate 0 0"
+$detailblendfactor 0.9
+$envmap "env_cubemap"
+$basealphaenvmapmask 1
+$envmaptint "[0.20 0.20 0.20]"
+$envmapcontrast 1
+$envmapsaturation 0.2
+$envmaplightscale 0.6
+$envmaplightscaleminmax "[0 1]"
+$selfillum 1
+$selfillummask "models/indicator_lights/check_frame_selfillum"
+$selfillumtint "[0 0.09 0.18]"
+$phong 1
+$phongfresnelranges "[0.5 0.75 1]"
+$halflambert 1
+$phongexponent 5
+$phongboost 6.35
+$basemapalphaphongmask 1
+$color2 "[0.50 0.50 0.50]"
+$model 1
+}

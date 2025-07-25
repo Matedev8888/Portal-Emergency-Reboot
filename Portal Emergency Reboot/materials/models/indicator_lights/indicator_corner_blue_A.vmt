@@ -1,0 +1,27 @@
+Refract
+{
+$basetexture "models/indicator_lights/indicator_corner_color_A"
+$surfaceprop glass
+$decal 1
+$envmap "metal/black_wall_envmap_002a"
+hdr
+{
+$envmap "metal/black_wall_envmap_002a_hdr"
+}
+$normalmapalphaenvmapmask 1
+$envmaptint "[0.20 0.20 0.20]"
+$envmapcontrast 1
+$envmapsaturation 0.2
+$envmaplightscale 0.6
+$envmaplightscaleminmax "[0 1]"
+$refract 1
+$alphatest 1
+$allowalphatocoverage 1
+$normalmap "models/indicator_lights/indicator_corner_normal"
+$refracttinttexture "models/indicator_lights/indicator_corner_blue"
+$refractamount 0.04
+$bluramount 1
+$localrefract 1
+$localrefractdepth 0.05
+$model 1
+}

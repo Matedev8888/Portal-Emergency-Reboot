@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "models/props/vert_door/circular_vert_door_frame"
+$surfaceprop default
+$model 1
+
+$blendtintbybasealpha 1
+}

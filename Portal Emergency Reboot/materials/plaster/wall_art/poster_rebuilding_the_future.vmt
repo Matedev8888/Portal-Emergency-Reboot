@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/wall_art/poster_rebuilding_the_future"
+	%noportal 1
+}

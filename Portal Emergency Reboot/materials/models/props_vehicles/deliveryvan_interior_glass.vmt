@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_vehicles/DeliveryVan_interior_Glass"
+
+//$ignorez 1
+//$alpha 0.5
+$translucent 1
+}

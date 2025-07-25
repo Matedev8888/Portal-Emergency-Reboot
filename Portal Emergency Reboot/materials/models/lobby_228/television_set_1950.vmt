@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+$basetexture "models/lobby_228/television_set_1950"
+$surfaceprop metal
+
+
+
+$envmapsaturation 0.2
+
+
+$phong 1
+$phongexponent 20
+$phongboost 3
+$phongfresnelranges "[.3 .6 4]"
+
+$basemapalphaphongmask 1
+}

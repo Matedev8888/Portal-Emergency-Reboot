@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays\aperture_science_poster_4"
+	"$translucent" 1
+                "$decal" 1
+}

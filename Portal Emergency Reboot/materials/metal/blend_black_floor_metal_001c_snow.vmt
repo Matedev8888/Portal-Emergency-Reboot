@@ -1,0 +1,17 @@
+WorldVertexTransition
+{
+$basetexture "metal/black_floor_metal_001c_snow"
+$basetexture2 "ground/snow01"
+$surfaceprop metal
+$surfaceprop2 snow
+"%noportal" 1
+"GPU>=1"
+{
+$blendmodulatetexture "ground/snowblendtexture"
+$bumpmap "metal/black_floor_tile_001c_height-ssbump"
+$reflectivity "[ 0.6 0.6 0.6 ]"
+$bumpmap2 "Nature/pavement_ssbump"
+$ssbump 1
+$bumptransform "center 0 0 scale 5.25 rotate 90 translate 0 0"
+}
+}

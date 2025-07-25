@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/Humans/Male/portal/common_baggagehandler_upper_01"
+	$nocull 1
+	"$phong" "1"
+	"$phongexponent" "10"
+//	"$phongexponenttexture" "models\fearless/mafia/suit_exp"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.05 0.1 0.5]"
+	
+}

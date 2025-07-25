@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture	"models/props/wooden_crates_skin2"
+	$bumpmap	"models/props/wooden_crates_normal"
+}

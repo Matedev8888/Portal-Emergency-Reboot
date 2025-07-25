@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models/Humans/Male/Group_portal/common_military_lower_03"
+$phong 1
+$phongboost 10
+$phongexponent 1
+$phongtint "[.4 .8 1]"
+$phongfresnelranges "[1 0 .05]"
+$allowdiffusemodulation 0
+}

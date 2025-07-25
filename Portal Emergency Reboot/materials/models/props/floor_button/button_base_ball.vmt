@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models/props/floor_button/base_sign_ball"
+$phong 1
+$phongexponent 245
+$phongboost 1	
+$phongfresnelranges	"[1 1.5 2]"
+$selfillum 1
+}

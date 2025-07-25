@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$basetexture "signage/hazard_orange_04c"
+$surfaceprop glass
+$selfillum 1
+"%keywords" portal
+}

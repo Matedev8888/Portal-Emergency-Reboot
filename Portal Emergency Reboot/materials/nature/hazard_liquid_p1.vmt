@@ -1,0 +1,44 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+
+	"$basetexture" "nature/hazard_liquid_p1"
+
+	"$selfillum" 1
+	"$surfaceprop" "slime"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .50 .45 .45 ]"
+	"$envmapcontrast" "1"
+
+	"%keywords" "portal"
+	"%compileSlime" 1
+	
+	"$bottommaterial" "nature/hazard_liquid_beneath_p1"
+	
+	"$fogenable" 1
+	"$fogcolor" "{72 70 10}"
+	"$fogstart" 1.00
+	"$fogend" 100.00
+
+	"$bumpmap"  "dev/waterA_normal"		// These two slide...
+	"$bumpmap2" "dev/waterB_normal"		// ...against each other
+	"$bumpmask" "dev/flat_normal"		// This holds still and alpha masks to get final normal
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .025
+			"texturescrollangle" -35.00
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .010
+			"texturescrollangle" -35.00
+		}
+	}
+}
+
+
