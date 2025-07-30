@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	$basetexture "pbr/pbr_painted_plaster1"
+	$mraotexture "pbr/pbr_painted_plaster1_ao"
+	$bumpmap "pbr/pbr_painted_plaster1_normal"
+
+	$envmap "env_cubemap"
+	$parallax "1"
+	$parallaxdepth "0.03"
+	$parallaxcenter "0.0"
+	$envmapmask "pbr/pbr_painted_plaster1_rough"
+"%noportal" 1
+}

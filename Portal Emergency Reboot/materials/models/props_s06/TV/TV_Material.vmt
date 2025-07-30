@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+$basetexture "models/props_s06/TV/TV_diff" 
+$surfaceprop wood
+$bumpmap "models/props_s06/TV/TV_nrm"
+$envmapmask "models/props_s06/TV/TV_rough"
+$envmap "env_bemap"
+}

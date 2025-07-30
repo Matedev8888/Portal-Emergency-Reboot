@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "TS06 OldAp/Scrawlings/s06_scrawling_01"
+	"$translucent" 1
+$decal 1
+$decalscale 0.25
+}

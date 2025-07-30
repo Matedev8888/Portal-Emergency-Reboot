@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/CONVEYOR_BELT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_01/c-976_-6624_311"
+	}
+}

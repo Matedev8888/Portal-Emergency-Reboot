@@ -1,0 +1,2 @@
+2048x2048
+White P2 textures include a mask for adding detail

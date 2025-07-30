@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/FACTORY_METAL_FLOOR001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-1697_4452_-96"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METAL_MODULAR_FLOOR002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-1813_-134_-943"
+	}
+}

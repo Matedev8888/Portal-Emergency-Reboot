@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/LOBBY_TILEFLOOR_1940_001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-1460_8771_59"
+	}
+}

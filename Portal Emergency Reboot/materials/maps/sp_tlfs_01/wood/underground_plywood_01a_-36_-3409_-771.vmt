@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/WOOD/UNDERGROUND_PLYWOOD_01A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_01/c-36_-3409_-771"
+	}
+}

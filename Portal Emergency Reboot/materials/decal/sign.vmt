@@ -1,0 +1,6 @@
+"lightmappedgeneric" {
+    "$basetexture" "decal/sign"
+    "$translucent" 1
+    "%compilepassbullets" 1
+    "$surfaceprop" "metal"
+}

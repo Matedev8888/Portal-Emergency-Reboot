@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METAL_LIFT001_RUSTY.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-1697_4452_-96"
+	}
+}

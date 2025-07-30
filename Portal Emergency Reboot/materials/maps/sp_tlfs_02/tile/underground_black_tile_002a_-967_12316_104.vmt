@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/UNDERGROUND_BLACK_TILE_002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-967_12316_104"
+	}
+}

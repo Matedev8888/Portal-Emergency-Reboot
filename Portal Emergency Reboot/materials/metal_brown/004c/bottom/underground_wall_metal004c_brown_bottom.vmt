@@ -1,0 +1,9 @@
+LightMappedGeneric
+{
+$basetexture "metal_brown/004c/bottom/underground_wall_metal004c_brown_bottom"
+$surfaceprop metal
+$bumpmap "metal_brown/underground_wall_metal004c_brown_bottom_normal"
+$envmapmask "metal_brown/004c/bottom/underground_wall_metal004c_brown_bottom_rough"
+$envmap "env_cubemap"
+"%noportal" 1
+}

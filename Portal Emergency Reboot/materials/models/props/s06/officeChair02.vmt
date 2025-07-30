@@ -1,0 +1,14 @@
+VertexlitGeneric
+{
+	$basetexture "models\props\S06\officeChair02_D"
+	$bumpmap "models\props\S06\officeChair02_N"
+
+	$normalmapalphaenvmapmask 1
+	$phong 1
+
+	$phongboost 0.25
+	$phongfresnelranges "[5 2 2]"
+
+	$envmap env_cubemap
+	$envmaptint "[0.025 0.025 0.025]"
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALWALL_BTS_006D_GRADIENT.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_01/c846_-5055_135"
+	}
+}

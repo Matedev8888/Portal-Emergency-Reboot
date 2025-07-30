@@ -1,0 +1,8 @@
+"lightmappedgeneric" {
+    "$basetexture" "decal/office_4"
+    "$translucent" 1
+    "$decal" 1
+    "$decalscale" 1.000000
+    "%keywords" "sign "
+    "$surfaceprop" "concrete"
+}

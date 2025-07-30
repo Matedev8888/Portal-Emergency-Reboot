@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_s06/neons/kratka"
+	"$surfaceprop" "Metal"
+	"$translucent" "1"
+	//"$selfillum" "1"
+	//"$selfillummask" "models/props_s06/neons/kratka_ilum"
+}

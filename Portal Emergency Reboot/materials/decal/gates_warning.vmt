@@ -1,0 +1,6 @@
+"lightmappedgeneric" {
+    "$basetexture" "decal/gates_warning"
+    "$translucent" 1
+    "%compilepassbullets" 1
+    "$surfaceprop" "concrete"
+}

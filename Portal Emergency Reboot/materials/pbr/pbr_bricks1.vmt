@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	$basetexture "pbr/pbr_bricks1"
+	$mraotexture "pbr/pbr_bricks1_ao"
+	$bumpmap "pbr/pbr_bricks1_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "pbr/pbr_bricks1_rough"
+	$parallax "1"
+	$parallaxdepth "0.03"
+	$parallaxcenter "0.0"
+"%noportal" 1
+}

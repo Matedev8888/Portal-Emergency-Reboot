@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW007A_MODEL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-1460_8771_59"
+	}
+}

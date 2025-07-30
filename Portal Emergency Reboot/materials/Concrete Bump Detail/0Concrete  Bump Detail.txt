@@ -1,0 +1,1 @@
+Bump detail texture for white walls a-la vanilla P2. Shipped as 256x256 normal and ssbump. Fits my conrete walls with detail scale of of 24.

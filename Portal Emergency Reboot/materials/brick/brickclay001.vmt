@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$basetexture "brick/brickclay001"
+$surfaceprop concrete
+$bumpmap "brick/brickclay001_normal"
+$detail "detail/noise_detail_01"
+$detailblendfactor 0.5
+}

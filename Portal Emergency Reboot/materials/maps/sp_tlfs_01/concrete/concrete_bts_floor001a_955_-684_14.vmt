@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETE_BTS_FLOOR001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_01/c955_-684_14"
+	}
+}

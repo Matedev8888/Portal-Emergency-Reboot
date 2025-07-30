@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PLASTIC/PLASTIC_LIGHT002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-766_4198_-75"
+	}
+}

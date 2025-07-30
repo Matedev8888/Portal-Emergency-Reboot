@@ -1,0 +1,7 @@
+"lightmappedgeneric" {
+    "$basetexture" "decal/board_01"
+    "$translucent" 1
+    "$decal" 1
+    "$decalscale" 1.000000
+    "$surfaceprop" "concrete"
+}

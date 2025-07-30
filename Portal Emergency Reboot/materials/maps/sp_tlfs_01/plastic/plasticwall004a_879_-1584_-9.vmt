@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PLASTIC/PLASTICWALL004A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_01/c879_-1584_-9"
+	}
+}

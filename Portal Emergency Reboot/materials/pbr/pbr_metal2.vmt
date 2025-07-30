@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	$basetexture "pbr/pbr_metal2"
+	$mraotexture "pbr/pbr_metal2_ao"
+	$bumpmap "pbr/pbr_metal2_normal"
+	$bumpmap2 "pbr/pbr_metal2_normal2"
+
+	$envmap "env_cubemap"
+	$parallax "1"
+	$parallaxdepth "0.03"
+	$parallaxcenter "0.0"
+	$envmapmask "pbr/pbr_metal2_rough"
+"%noportal" 1
+}

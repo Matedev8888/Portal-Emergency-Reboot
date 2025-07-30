@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_s06/neons/obudowa_zielony"
+	"$surfaceprop" "Metal"
+}

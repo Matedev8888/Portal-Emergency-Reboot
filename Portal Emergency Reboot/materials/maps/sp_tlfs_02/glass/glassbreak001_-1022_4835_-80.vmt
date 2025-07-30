@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSBREAK001.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_02/c-1022_4835_-80"
+	}
+}

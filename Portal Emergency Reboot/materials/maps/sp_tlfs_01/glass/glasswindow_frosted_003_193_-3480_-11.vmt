@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW_FROSTED_003.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/sp_tlfs_01/c193_-3480_-11"
+	}
+}
