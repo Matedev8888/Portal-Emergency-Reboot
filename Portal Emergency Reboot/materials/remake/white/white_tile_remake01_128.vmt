@@ -1,0 +1,16 @@
+PBR
+{
+$basetexture			"remake\white\white_tile_remake01_128_basecolor"
+$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+$bumpmap				"remake\white\white_tile_remake01_128_normal"
+$bumptransform			"center 0 0 scale 2 2 rotate 0 translate 0 0"
+$mraotexture			"remake\white\white_tile_remake01_128_mrao"
+
+$parallax				1
+$parallaxcenter			0.5
+$parallaxdepth			0.01
+$parallaxdither         1
+$parallaxscale          256
+
+$surfaceprop			concrete
+}

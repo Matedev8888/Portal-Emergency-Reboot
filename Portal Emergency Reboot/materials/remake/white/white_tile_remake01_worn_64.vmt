@@ -1,0 +1,11 @@
+Patch
+{
+	include "materials\remake\white\white_tile_remake01_64.vmt"
+
+	insert
+	{
+		$basetexture "remake/white/white_tile_worn_64_basecolor"
+	}
+}
+
+

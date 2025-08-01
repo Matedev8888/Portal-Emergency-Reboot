@@ -1,0 +1,18 @@
+PBR
+{
+$basetexture			"remake\metal\metal_remake01_64x128_basecolor"
+$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+$bumpmap				"remake\metal\metal_remake01_64x128_normal"
+$bumptransform			"center 0 0 scale 2 2 rotate 0 translate 0 0"
+$mraotexture			"remake\metal\metal_remake01_64x128_mrao"
+$mraoscale              "[0.5 1.5 0.8]"
+
+$parallax				1
+$parallaxcenter			0.5
+$parallaxdepth			0.01
+$parallaxdither         1
+$parallaxscale          256
+
+$surfaceprop			metal
+"%noportal"			1
+}
