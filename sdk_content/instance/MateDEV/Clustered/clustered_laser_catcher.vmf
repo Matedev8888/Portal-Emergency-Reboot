@@ -1,0 +1,193 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "10290"
+	"mapversion" "8"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(93.7541 -20.4164 20.0823)"
+			"angle" "[11.2 -154.4 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-17.9231 -64.5438 65536)"
+			"zoom" "16.5618"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 -95.9189 62.7533)"
+			"zoom" "3.2098"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(14.0689 -65536 6.20298)"
+			"zoom" "5.54653"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "8"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "321"
+	"classname" "prop_laser_catcher"
+	"AllowSilentDissolve" "1"
+	"angles" "0 90 0"
+	"body" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"effects" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"filtercolor" "255 255 255 255"
+	"model" "models/props/laser_catcher_center.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skintype" "0"
+	"solid" "6"
+	"src_fix_skins" "1"
+	"targetname" "laser_catcher"
+	"texframeindex" "0"
+	"uselaserfilter" "0"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnPowered" "laser_catcher_lightTurnOn0-1"
+	}
+	"origin" "0 -80 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 17000]"
+	}
+}
+entity
+{
+	"id" "325"
+	"classname" "light_rt"
+	"_castentityshadow" "1"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_light" "194 39 39 150"
+	"_lightHDR" "-1 -1 -1 1"
+		"_lightmode" "2"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_rt_fifty_percent_scale" "0.6"
+	"_rt_radius" "384"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"spawnflags" "0"
+	"targetname" "laser_catcher_light"
+	connections
+	{
+		"OnPressed" "button_baseTTSetTextureIndex10-1"
+		"OnUnPressed" "button_baseTTSetTextureIndex00-1"
+		"OnPressed" "rl_fizzler_onTrigger0-1"
+		"OnUnPressed" "rl_fizzler_offTrigger0-1"
+	}
+	"origin" "-3.8147e-06 -48 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16572]"
+	}
+}
+entity
+{
+	"id" "332"
+	"classname" "env_sprite"
+	"angles" "0 270 -90"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"glowproxysize" "3"
+	"hdrcolorscale" "0.7"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "140"
+	"rendercolor" "255 76 78"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "5"
+	"spawnflags" "0"
+	"targetname" "laser_catcher_sprite"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnPressed" "button_baseTTSetTextureIndex10-1"
+		"OnUnPressed" "button_baseTTSetTextureIndex00-1"
+		"OnPressed" "rl_fizzler_onTrigger0-1"
+		"OnUnPressed" "rl_fizzler_offTrigger0-1"
+	}
+	"origin" "-3.8147e-06 -52 0"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 19000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

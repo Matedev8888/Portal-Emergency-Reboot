@@ -1,0 +1,799 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "80"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "80"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "432"
+		side
+		{
+			"id" "7"
+			"plane" "(-24 -24 24) (-24 24 24) (24 24 24)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-24 24 -24) (-24 -24 -24) (24 -24 -24)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-24 -24 -24) (-24 24 -24) (-24 24 24)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(24 24 -24) (24 -24 -24) (24 -24 24)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(-24 24 -24) (24 24 -24) (24 24 24)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(24 -24 -24) (-24 -24 -24) (-24 -24 24)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 131 120"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "1913"
+	"classname" "logic_branch"
+	"InitialValue" "0"
+	"targetname" "lights_manual"
+	connections
+	{
+		"OnFalse" "bulbs_controllerTest0-1"
+	}
+	"origin" "12 0 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2067"
+	"classname" "logic_branch"
+	"InitialValue" "0"
+	"targetname" "bulbs_controller"
+	connections
+	{
+		"OnTrue" "power_redHideSprite0-1"
+		"OnTrue" "power_greenShowSprite0-1"
+		"OnTrue" "circuit_breaker_fake_glowSkin20-1"
+		"OnFalse" "circuit_breaker_fake_glowSkin10-1"
+		"OnFalse" "power_greenHideSprite0-1"
+		"OnFalse" "power_redShowSprite0-1"
+	}
+	"origin" "4 8 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2216"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "bulbs_none"
+	connections
+	{
+		"OnTrigger" "lights_manualSetValue10-1"
+		"OnTrigger" "power_greenHideSprite0-1"
+		"OnTrigger" "power_redHideSprite0-1"
+		"OnTrigger" "circuit_breaker_fake_glowSkin00-1"
+	}
+	"origin" "12 8 12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2236"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "bulbs_red"
+	connections
+	{
+		"OnTrigger" "lights_manualSetValue10-1"
+		"OnTrigger" "power_greenHideSprite0-1"
+		"OnTrigger" "power_redShowSprite0-1"
+		"OnTrigger" "circuit_breaker_fake_glowSkin10-1"
+	}
+	"origin" "4 8 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2242"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "bulbs_green"
+	connections
+	{
+		"OnTrigger" "lights_manualSetValue10-1"
+		"OnTrigger" "power_greenShowSprite0-1"
+		"OnTrigger" "power_redHideSprite0-1"
+		"OnTrigger" "circuit_breaker_fake_glowSkin20-1"
+	}
+	"origin" "12 8 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2261"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "bulbs_both"
+	connections
+	{
+		"OnTrigger" "lights_manualSetValue10-1"
+		"OnTrigger" "power_greenShowSprite0-1"
+		"OnTrigger" "power_redShowSprite0-1"
+		"OnTrigger" "circuit_breaker_fake_glowSkin30-1"
+	}
+	"origin" "12 0 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2269"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "bulbs_reset_to_automatic"
+	connections
+	{
+		"OnTrigger" "lights_manualSetValueTest00-1"
+	}
+	"origin" "12 -8 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2634"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "force_open"
+	connections
+	{
+		"OnTrigger" "push_button_knobOpen0-1"
+	}
+	"origin" "8 -8 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2694"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "force_close"
+	connections
+	{
+		"OnTrigger" "push_button_knobClose0-1"
+	}
+	"origin" "8 -8 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1885"
+	"classname" "logic_branch"
+	"InitialValue" "$do_spark"
+	"targetname" "branch_sparks"
+	connections
+	{
+		"OnTrue" "circuit_breaker_sparks1SparkOnce0-1"
+	}
+	"origin" "4 0 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1393"
+	"classname" "logic_branch"
+	"InitialValue" "0"
+	"targetname" "state"
+	connections
+	{
+		"OnTrue" "send_openedTrigger0-1"
+		"OnFalse" "send_closingTrigger0-1"
+	}
+	"origin" "12 8 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "850"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "bulbs_noneTrigger0-1"
+		"OnProxyRelay" "bulbs_redTrigger0-1"
+		"OnProxyRelay" "bulbs_greenTrigger0-1"
+		"OnProxyRelay" "bulbs_bothTrigger0-1"
+		"OnProxyRelay" "bulbs_reset_to_automaticTrigger0-1"
+		"OnProxyRelay" "lockTrigger0-1"
+		"OnProxyRelay" "unlockTrigger0-1"
+		"OnProxyRelay" "force_openTrigger0-1"
+		"OnProxyRelay" "force_closeTrigger0-1"
+	}
+	"origin" "12 -8 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1161"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "send_opened"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "12 -8 12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1163"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "send_closing"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "4 8 12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "561"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "unlock"
+	connections
+	{
+		"OnTrigger" "push_button_knobUnlock0-1"
+	}
+	"origin" "12 0 12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "563"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "lock"
+	connections
+	{
+		"OnTrigger" "push_button_knobLock0-1"
+	}
+	"origin" "4 0 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "643"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"disableX360" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"HoldAnimation" "0"
+	"MaxAnimTime" "10"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"MinAnimTime" "5"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_gameplay/circuit_breaker_box_bulbs.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"SuppressAnimSounds" "0"
+	"targetname" "circuit_breaker_fake_glow"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11500 9000]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"MaxDelay" "0"
+	"spawnflags" "0"
+	"targetname" "circuit_breaker_sparks1"
+	"TrailLength" "2"
+	"origin" "-4 3 -7"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -12268]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "2"
+	"MaxDelay" "0"
+	"spawnflags" "0"
+	"targetname" "circuit_breaker_sparks1"
+	"TrailLength" "3"
+	"origin" "-4 -3 -7"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -10268]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "func_door_rotating"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"distance" "-161"
+	"dmg" "0"
+	"drawinfastreflection" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"noise1" "World.PaintSwitchOpen"
+	"origin" "-2 0 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solidbsp" "0"
+	"spawnflags" "396"
+	"spawnpos" "0"
+	"speed" "$rotspeed"
+	"startclosesound" "World.PaintSwitchClose"
+	"targetname" "push_button_knob"
+	"unlocked_sentence" "0"
+	"wait" "$holdtime"
+	connections
+	{
+		"OnFullyOpen" "stateSetValueTest10-1"
+		"OnFullyOpen" "branch_sparksTest0-1"
+		"OnClose" "stateSetValueTest00-1"
+		"OnFullyOpen" "bulbs_controllerSetValue10-1"
+		"OnClose" "bulbs_controllerSetValue00-1"
+		"OnFullyOpen" "lights_manualTest0-1"
+		"OnClose" "lights_manualTest0-1"
+	}
+	solid
+	{
+		"id" "7"
+		side
+		{
+			"id" "1"
+			"plane" "(-7 5 -3) (-1 5 -3) (-1 5 3)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -12.7998] 0.25"
+			"vaxis" "[0 0 -1 17.6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-1 5 -3) (-7 5 -3) (-7 -5 -3)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -12.7998] 0.25"
+			"vaxis" "[0 -1 0 -8.51953] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-7 -5 3) (-7 5 3) (-1 5 3)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 12.7998] 0.25"
+			"vaxis" "[0 -1 0 -8.51953] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-7 -5 -3) (-7 5 -3) (-7 5 3)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -8.51953] 0.25"
+			"vaxis" "[0 0 -1 17.6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-1 5 3) (-1 5 -3) (-1 -5 -3)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 8.51953] 0.25"
+			"vaxis" "[0 0 -1 17.6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-1 -5 -3) (-7 -5 -3) (-7 -5 3)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 12.7998] 0.25"
+			"vaxis" "[0 0 -1 17.6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -10768]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "prop_dynamic_override"
+	"angles" "0 180 0"
+	"AnimateEveryFrame" "0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"health" "0"
+	"HoldAnimation" "0"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_gameplay/circuit_breaker_lever.mdl"
+	"parentname" "push_button_knob"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "circuit_breaker_lever"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -9768]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_gameplay/circuit_breaker_box.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11500 9000]"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "180"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"spawnflags" "1"
+	"targetname" "power_red"
+	"origin" "-1.54847 -3.35405 12.7835"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -9268]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "180"
+	"rendercolor" "0 255 64"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"spawnflags" "0"
+	"targetname" "power_green"
+	"origin" "-1.54847 -5.35405 12.7835"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -8768]"
+	}
+}
+entity
+{
+	"id" "488"
+	"classname" "func_instance_parms"
+	"parm1" "$rotspeed float 140"
+	"parm2" "$holdtime float 1"
+	"parm3" "$do_spark integer 1"
+	"origin" "4 0 12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

@@ -1,0 +1,390 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "10290"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(7.05335 58.5512 75.5278)"
+			"angle" "[31.6 -95.9999 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-6.76182 0.430473 65536)"
+			"zoom" "2.22902"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(14.0689 -65536 6.20298)"
+			"zoom" "5.54653"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "3"
+	"classname" "env_portal_laser"
+	"AllowSilentDissolve" "1"
+	"angles" "0 90 0"
+	"autoaimenabled" "1"
+	"beamcolor" "255 0 0 255"
+	"body" "0"
+	"disableflashlight" "0"
+	"DisablePlayerCollision" "1"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"effects" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lethaldamage" "0"
+	"model" "models/props/laser_emitter.mdl"
+	"noplacementhelper" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"startstate" "1"
+	"targetname" "laser_emitter"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 -80 0"
+	editor
+	{
+		"color" "0 201 230"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11572]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "light_rt"
+	"_castentityshadow" "1"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_light" "194 39 39 250"
+	"_lightHDR" "-1 -1 -1 1"
+		"_lightmode" "2"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_rt_fifty_percent_scale" "0.6"
+	"_rt_radius" "256"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"spawnflags" "0"
+	"targetname" "laser_emitter_light"
+	connections
+	{
+		"OnPressed" "button_baseTTSetTextureIndex10-1"
+		"OnUnPressed" "button_baseTTSetTextureIndex00-1"
+		"OnPressed" "rl_fizzler_onTrigger0-1"
+		"OnUnPressed" "rl_fizzler_offTrigger0-1"
+	}
+	"origin" "0 -48 -14"
+	editor
+	{
+		"color" "0 227 112"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1572]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "env_sprite"
+	"angles" "0 89.9999 -90"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"glowproxysize" "3"
+	"hdrcolorscale" "0.7"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "170"
+	"rendercolor" "255 76 78"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "5"
+	"spawnflags" "0"
+	"targetname" "laser_emitter_sprite"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnPressed" "button_baseTTSetTextureIndex10-1"
+		"OnUnPressed" "button_baseTTSetTextureIndex00-1"
+		"OnPressed" "rl_fizzler_onTrigger0-1"
+		"OnUnPressed" "rl_fizzler_offTrigger0-1"
+	}
+	"origin" "0 -47 -14"
+	editor
+	{
+		"color" "0 141 142"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 18500]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "light_rt"
+	"_castentityshadow" "1"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_light" "194 39 39 30"
+	"_lightHDR" "-1 -1 -1 1"
+		"_lightmode" "2"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_rt_fifty_percent_scale" "0.6"
+	"_rt_radius" "256"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"spawnflags" "0"
+	"targetname" "laser_emitter_light"
+	connections
+	{
+		"OnPressed" "button_baseTTSetTextureIndex10-1"
+		"OnUnPressed" "button_baseTTSetTextureIndex00-1"
+		"OnPressed" "rl_fizzler_onTrigger0-1"
+		"OnUnPressed" "rl_fizzler_offTrigger0-1"
+	}
+	"origin" "0 -16 -14"
+	editor
+	{
+		"color" "0 255 240"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -35572]"
+	}
+}
+entity
+{
+	"id" "25"
+	"classname" "light_rt"
+	"_castentityshadow" "1"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_light" "194 39 39 30"
+	"_lightHDR" "-1 -1 -1 1"
+		"_lightmode" "2"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_rt_fifty_percent_scale" "0.6"
+	"_rt_radius" "256"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"spawnflags" "0"
+	"targetname" "laser_emitter_light"
+	connections
+	{
+		"OnPressed" "button_baseTTSetTextureIndex10-1"
+		"OnUnPressed" "button_baseTTSetTextureIndex00-1"
+		"OnPressed" "rl_fizzler_onTrigger0-1"
+		"OnUnPressed" "rl_fizzler_offTrigger0-1"
+	}
+	"origin" "0 16 -14"
+	editor
+	{
+		"color" "0 157 166"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -35072]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "light_rt"
+	"_castentityshadow" "1"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_initialshadowsize" "3"
+	"_light" "194 39 39 30"
+	"_lightHDR" "-1 -1 -1 1"
+		"_lightmode" "2"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+		"_lightmode" "1"
+	"_lightmode" "3"
+	"_lightscaleHDR" "1"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_rt_fifty_percent_scale" "0.6"
+	"_rt_radius" "256"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"spawnflags" "0"
+	"targetname" "laser_emitter_light"
+	connections
+	{
+		"OnPressed" "button_baseTTSetTextureIndex10-1"
+		"OnUnPressed" "button_baseTTSetTextureIndex00-1"
+		"OnPressed" "rl_fizzler_onTrigger0-1"
+		"OnUnPressed" "rl_fizzler_offTrigger0-1"
+	}
+	"origin" "0 48 -14"
+	editor
+	{
+		"color" "0 163 252"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -34572]"
+	}
+}
+entity
+{
+	"id" "113"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "turnON"
+	connections
+	{
+		"OnTrigger" "laser_emitter_lightTurnOn0-1"
+		"OnTrigger" "laser_emitterTurnOn0-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "221"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "turnOFF"
+	connections
+	{
+		"OnTrigger" "laser_emitter_lightTurnOff0-1"
+		"OnTrigger" "laser_emitterTurnOff0-1"
+	}
+	"origin" "0 32 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "239"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "turnONTrigger0-1"
+		"OnProxyRelay" "turnOFFTrigger0-1"
+	}
+	"origin" "0 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

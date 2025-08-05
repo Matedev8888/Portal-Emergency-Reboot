@@ -1,0 +1,236 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8874"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_office/computer_tall01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0.0100067 -0.36563 0.250002"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 12500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "comp_tall_grn_spr_1"
+	"origin" "10.8 14.44 90.7765"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "comp_tall_grn_spr_2"
+	"origin" "-11.2 14.44 90.7765"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "comp_tall_grn_spr_3"
+	"origin" "10.8 14.44 47"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "logic_case"
+	"targetname" "comp_tall_case_1"
+	connections
+	{
+		"OnCase01" "comp_tall_grn_spr_1ShowSprite0-1"
+		"OnCase02" "comp_tall_grn_spr_1HideSprite0-1"
+	}
+	"origin" "7.6 -1.36 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "logic_case"
+	"targetname" "comp_tall_case_2"
+	connections
+	{
+		"OnCase02" "comp_tall_grn_spr_2HideSprite0-1"
+		"OnCase01" "comp_tall_grn_spr_2ShowSprite0-1"
+	}
+	"origin" "7.6 -1.36 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "19"
+	"classname" "logic_case"
+	"targetname" "comp_tall_case_3"
+	connections
+	{
+		"OnCase02" "comp_tall_grn_spr_3HideSprite0-1"
+		"OnCase01" "comp_tall_grn_spr_3ShowSprite0-1"
+	}
+	"origin" "-8.4 -1.36 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "21"
+	"classname" "logic_timer"
+	"RefireTime" "1"
+	"StartDisabled" "0"
+	"targetname" "comp_tall_timer"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "comp_tall_case_1PickRandom0-1"
+		"OnTimer" "comp_tall_case_3PickRandom0-1"
+		"OnTimer" "comp_tall_case_2PickRandom0-1"
+	}
+	"origin" "-8.4 -1.36 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

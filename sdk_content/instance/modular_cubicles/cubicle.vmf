@@ -1,0 +1,147 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "10463"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-7.43307 -111.384 67.7009)"
+			"angle" "[51.2 86.8 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(58.6946 -8.38494 65536)"
+			"zoom" "1.54793"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 -8.37054 19.8673)"
+			"zoom" "3.85176"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "2"
+	"classname" "func_instance"
+	"angles" "-0 -90 0"
+	"file" "instances/modular_cubicles/desks/desk_b_01.vmf"
+	"fixup_style" "0"
+	"origin" "-2 2 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -28072]"
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "func_instance"
+	"angles" "-0 180 0"
+	"file" "instances/modular_cubicles/desks/desk_a_03_alt.vmf"
+	"fixup_style" "0"
+	"origin" "0 2 -0.125"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -28072]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "func_instance"
+	"angles" "-0 89.9999 0"
+	"file" "instances/modular_cubicles/desks/desk_b_03_alt.vmf"
+	"fixup_style" "0"
+	"origin" "-1 0 -0.247925"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -28072]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "func_instance"
+	"angles" "-0 -1.73028e-05 0"
+	"file" "instances/modular_cubicles/desks/desk_a_01_alt.vmf"
+	"fixup_style" "0"
+	"origin" "-2 0 -0.372925"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -28072]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "func_instance"
+	"angles" "-0 90 0"
+	"file" "instances/modular_cubicles/frames/frame_a_01.vmf"
+	"fixup_style" "0"
+	"origin" "-1 1 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -28072]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

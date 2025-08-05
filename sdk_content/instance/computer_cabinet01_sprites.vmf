@@ -1,0 +1,824 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8874"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_2"
+	connections
+	{
+		"OnCase02" "cabinet01_grn_spr_2HideSprite0-1"
+		"OnCase01" "cabinet01_grn_spr_2ShowSprite0-1"
+	}
+	"origin" "7.5 -4 103.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_1"
+	connections
+	{
+		"OnCase01" "cabinet01_grn_spr_1ShowSprite0-1"
+		"OnCase02" "cabinet01_grn_spr_1HideSprite0-1"
+	}
+	"origin" "7.5 -4 119.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "cabinet01_grn_spr_1"
+	"origin" "12 9.3 82.375"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "cabinet01_grn_spr_2"
+	"origin" "0 9.3 82.375"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "cabinet01_grn_spr_3"
+	"origin" "-11.5 9.3 82.375"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "cabinet01_grn_spr_4"
+	"origin" "12 9.3 73.875"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"renderamt" "255"
+	"rendercolor" "99 208 151"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.05"
+	"targetname" "cabinet01_grn_spr_5"
+	"origin" "-11.5 9.3 73.875"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "21"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.1"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow02.vmt"
+	"renderamt" "255"
+	"rendercolor" "198 85 24"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.080"
+	"targetname" "cabinet01_red_spr_6"
+	"origin" "-7.25 9.5 71.375"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_7"
+	"origin" "9.25 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "27"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_8"
+	"origin" "7.75 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "30"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_9"
+	"origin" "5.85001 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "33"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_10"
+	"origin" "4.35001 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_14"
+	"origin" "-8.84999 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "39"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_11"
+	"origin" "-3.95 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "42"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_12"
+	"origin" "-5.45 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "45"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_13"
+	"origin" "-7.34999 9.05 46.625"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "48"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "0.5"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "179 180 106"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.025"
+	"targetname" "cabinet01_ylw_spr_15"
+	"origin" "-8.60001 9.05 28.375"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "51"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_5"
+	connections
+	{
+		"OnCase02" "cabinet01_grn_spr_5HideSprite0-1"
+		"OnCase01" "cabinet01_grn_spr_5ShowSprite0-1"
+	}
+	"origin" "-8.5 -4 87.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "53"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_4"
+	connections
+	{
+		"OnCase02" "cabinet01_grn_spr_4HideSprite0-1"
+		"OnCase01" "cabinet01_grn_spr_4ShowSprite0-1"
+	}
+	"origin" "7.5 -4 87.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "55"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_7"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_7HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_7ShowSprite0-1"
+	}
+	"origin" "-8.5 -4 71.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "57"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_6"
+	connections
+	{
+		"OnCase02" "cabinet01_red_spr_6HideSprite0-1"
+		"OnCase01" "cabinet01_red_spr_6ShowSprite0-1"
+	}
+	"origin" "7.5 -4 71.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "59"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_9"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_9HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_9ShowSprite0-1"
+	}
+	"origin" "-8.5 -4 55.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "61"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_8"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_8HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_8ShowSprite0-1"
+	}
+	"origin" "7.5 -4 55.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "63"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_11"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_11HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_11ShowSprite0-1"
+	}
+	"origin" "-8.5 -4 39.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "65"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_10"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_10HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_10ShowSprite0-1"
+	}
+	"origin" "7.5 -4 39.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "67"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_13"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_13HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_13ShowSprite0-1"
+	}
+	"origin" "-8.5 -4 23.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "69"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_12"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_12HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_12ShowSprite0-1"
+	}
+	"origin" "7.5 -4 23.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_15"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_15HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_15ShowSprite0-1"
+	}
+	"origin" "-8.5 -4 7.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "73"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_14"
+	connections
+	{
+		"OnCase02" "cabinet01_ylw_spr_14HideSprite0-1"
+		"OnCase01" "cabinet01_ylw_spr_14ShowSprite0-1"
+	}
+	"origin" "7.5 -4 7.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "75"
+	"classname" "logic_case"
+	"targetname" "cabinet01_case_3"
+	connections
+	{
+		"OnCase02" "cabinet01_grn_spr_3HideSprite0-1"
+		"OnCase01" "cabinet01_grn_spr_3ShowSprite0-1"
+	}
+	"origin" "-8.5 -4 103.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "77"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_office/computer_cabinet01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-0.5 -4 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 12500]"
+	}
+}
+entity
+{
+	"id" "81"
+	"classname" "logic_timer"
+	"RefireTime" "1"
+	"StartDisabled" "0"
+	"targetname" "cabinet01_timer"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "cabinet01_case_1PickRandom0-1"
+		"OnTimer" "cabinet01_case_2PickRandom0-1"
+		"OnTimer" "cabinet01_case_3PickRandom0-1"
+		"OnTimer" "cabinet01_case_4PickRandom0-1"
+		"OnTimer" "cabinet01_case_5PickRandom0-1"
+		"OnTimer" "cabinet01_case_6PickRandom0-1"
+		"OnTimer" "cabinet01_case_7PickRandom0-1"
+		"OnTimer" "cabinet01_case_8PickRandom0-1"
+		"OnTimer" "cabinet01_case_9PickRandom0-1"
+		"OnTimer" "cabinet01_case_10PickRandom0-1"
+		"OnTimer" "cabinet01_case_11PickRandom0-1"
+		"OnTimer" "cabinet01_case_12PickRandom0-1"
+		"OnTimer" "cabinet01_case_13PickRandom0-1"
+		"OnTimer" "cabinet01_case_14PickRandom0-1"
+		"OnTimer" "cabinet01_case_15PickRandom0-1"
+	}
+	"origin" "-8.5 -4 119.875"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

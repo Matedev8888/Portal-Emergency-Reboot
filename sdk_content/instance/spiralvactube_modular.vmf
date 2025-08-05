@@ -1,0 +1,263 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	group
+	{
+		"id" "2"
+		editor
+		{
+			"color" "252 221 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "3"
+		editor
+		{
+			"color" "252 221 0"
+			"groupid" "2"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "prop_static"
+	"angles" "60 180 90"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/vactube_90deg_04.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-8 248 104.237"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "prop_static"
+	"angles" "60 180 180"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/vactube_90deg_04.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "213.702 -8 -23.7629"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "prop_static"
+	"angles" "60 0 90"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/vactube_90deg_04.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-8 -264 -151.763"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "prop_static"
+	"angles" "60 0 180"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/vactube_90deg_04.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-229.7 -8 -279.763"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "prop_static"
+	"angles" "90 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/vactube_connector.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "208 0 -23.7629"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "prop_static"
+	"angles" "90 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/vactube_connector.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-224 -16 232.237"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "comp_vactube_junction"
+	"angles" "-60 0 0"
+	"model" "models/editor/vactubes/curve_4.mdl"
+	"persist_tv" "0"
+	"skin" "0"
+	"origin" "-224 16 232"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "30"
+	"classname" "comp_vactube_junction"
+	"angles" "-58.2169 0.443989 -95.385"
+	"model" "models/editor/vactubes/curve_4.mdl"
+	"persist_tv" "0"
+	"skin" "0"
+	"origin" "0 272 104"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "comp_vactube_junction"
+	"angles" "-59.9685 184.299 -9.00245"
+	"model" "models/editor/vactubes/curve_4.mdl"
+	"persist_tv" "0"
+	"skin" "0"
+	"origin" "200 -32 -16"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "comp_vactube_junction"
+	"angles" "-58.2169 177.444 -95.385"
+	"model" "models/editor/vactubes/curve_4.mdl"
+	"persist_tv" "0"
+	"skin" "0"
+	"origin" "-40 -264 -166"
+	editor
+	{
+		"color" "252 221 0"
+		"groupid" "3"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
