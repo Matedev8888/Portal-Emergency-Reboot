@@ -1,0 +1,8 @@
+PBR{
+$basetexture "PBR\glass\glasswindow_frosted_002_test_diffuseOriginal"
+$bumpmap "PBR\glass\glasswindow_frosted_002_test_normal"
+$mraotexture "PBR\glass\glasswindow_frosted_002_test_MRAO"
+$envmap "metal/black_wall_envmap_002a_hdr"
+$translucent "1"
+%noportal "1"
+}
